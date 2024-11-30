@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:"poppins",sans-serif;
+font-style: normal;
+}
+
+.cabecera{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+
+.navegacion{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+    height: 80px;
+    position: fixed;
+    background-color: aliceblue;
+    
+}
+
+.navegacion img{
+    width: 100px;
+}
+
+.navegacion .cont-iconos  .iconos{
+    height: 80px;
+    align-items: center;
+}
+
+.navegacion .iconos, 
+.navegacion .menu{
+list-style: none;
+display: flex;
+align-items: center;
+gap: 15px;
+}
+
+.anuncio{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10%;
+    background-image: url("https://art.pixilart.com/sr29c206f1c21aws3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.navegacion .menu {
+margin-right: 10%;
+}
+
+.navegacion .logo{
+    margin-left: 10%;
+}
